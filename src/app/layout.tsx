@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/header/Header";
@@ -57,6 +59,8 @@ export default function RootLayout({
       <body
         className={`w-full h-full ${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
       >
+        <Analytics />
+        <SpeedInsights />
         <Header />
         {children}
         <Footer />

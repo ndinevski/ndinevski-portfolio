@@ -42,11 +42,15 @@ export const navigationTabsMobile = [
 
 export const achievements: AchievementsEntry[] = [
   {
+    name: "Best Hybrid-Casual Game at Global Game Jam 2025",
+    period: "January, 2025"
+  },
+  {
     name: "AWS Certifed Cloud Practicioner ( CLF-C02 )",
     period: "September, 2024",
   },
   {
-    name: "Gold Medal at Global Game Jam",
+    name: "Best Game at Global Game Jam 2020",
     period: "January, 2020",
   },
   {
@@ -149,12 +153,34 @@ export const projects: ProjectsEntry[] = [
     linkToProject: "https://github.com/ndinevski/ads-manager",
   },
   {
+    backgroundImage: "overboiledThumbnail.png",
+    title: "Overboiled",
+    technologies: ["Game Development", "Unity", "C#"],
+    description:
+      "An award-winning hybrid-casual mobile game created during the Global Game Jam 2025! Overboiled took home the Best Hybrid-Casual Game prize.",
+    linkToProject: "https://github.com/ndinevski/Overboiled",
+  },
+  {
+    backgroundImage: "renderingComparisonThumbnail.png",
+    title: "Document Rendering Performance Comparison in AWS",
+    technologies: ["AWS", "Puppeteer"],
+    description: "Comparing generating PDF documents on a EC2, EKS and Lambda on AWS.",
+    linkToProject: "https://blog.codechem.com/parallel-documents-rendering-a-performance-comparison-of-vm-kubernetes-and-faas-in-aws",
+  },
+  {
     backgroundImage: "asRtsldThumbnail.png",
     title: "AS_RTSLD",
     technologies: ["Python", "Tensorflow"],
     description:
       'Real Time Sign Language Detection app in honour of 60 years after Aco Shopov\'s song "Pet i Sedumnaeset", that was written for the tragic earthquake in Skopje in 1963.',
     linkToProject: "https://github.com/ndinevski/AS_RTSLD",
+  },
+  {
+    backgroundImage: "openVasThumbnail.png",
+    title: "A Deep Dive into OpenVAS: Enhancing Your Network's Security Through Effective Vulnerability Scanning and Risk Mitigation",
+    technologies: ["OpenVAS", "Network Security"],
+    description: "A research paper and experiment with OpenVAS.",
+    linkToProject: "https://blog.codechem.com/a-deep-dive-into-openvas-enhancing-network-security-through-vulnerability-scanning",
   },
   {
     backgroundImage: "healthExpenditureThumbnail.png",
